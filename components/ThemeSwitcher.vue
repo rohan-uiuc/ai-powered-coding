@@ -1,7 +1,7 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 
-const isDark = ref(false)
+const isDark = ref(true)
 
 // Function to toggle between light and dark themes
 function toggleTheme() {
@@ -18,7 +18,7 @@ function toggleTheme() {
 
 // Initialize theme from localStorage on component mount
 onMounted(() => {
-  const savedTheme = localStorage.getItem('slidev-theme')
+  const savedTheme = localStorage.getItem('slidev-theme') || 'dark'
   isDark.value = savedTheme === 'dark'
   
   if (isDark.value) {
