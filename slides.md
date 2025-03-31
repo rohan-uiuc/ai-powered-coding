@@ -66,7 +66,7 @@ colorSchema: 'auto'
 </div>
 
 ---
-# Before We Begin...
+# Slide 1: Before We Begin...
 src: ./slides/01b-initial-poll.md
 ---
 
@@ -76,13 +76,13 @@ src: ./slides/02-developers-teammate.md
 ---
 
 ---
-# Slide 10: Depth
-src: ./slides/08-depth.md
+# Slide 3: Depth
+src: ./slides/03-depth.md
 ---
 
 ---
-# Slide 3: AI as a Cybernetic Teammate (Research Graphs)
-src: ./slides/03-cybernetic-teammate.md
+# Slide 4: AI as a Cybernetic Teammate (Research Graphs)
+src: ./slides/04-cybernetic-teammate.md
 ---
 
 ---
@@ -111,31 +111,31 @@ src: ./slides/07b-llm-practices.md
 ---
 
 ---
-# Slide 11: Tools
-src: ./slides/09-tools.md
+# Slide 10: Tools
+src: ./slides/10-tools.md
 ---
 
 ---
-# AI Coding Demo
-src: ./slides/09b-video-demo.md
+# Slide 11: AI Coding Demo
+src: ./slides/11-video-demo.md
 ---
 
 ---
-# AI Debugging & Bugfixing
-src: ./slides/09c-bugfix-demo.md
+# Slide 12: AI Debugging & Bugfixing
+src: ./slides/12-bugfix-demo.md
 ---
 
 ---
-# Slide 12: Takeaways
-src: ./slides/10-takeaways.md
+# Slide 13: Takeaways
+src: ./slides/13-takeaways.md
 ---
 
 ---
-# We'd Love Your Feedback!
-src: ./slides/10b-polls.md
+# Slide 14: We'd Love Your Feedback!
+src: ./slides/14-polls.md
 ---
 
 ---
-# Slide 13: Thanks
-src: ./slides/11-thanks.md
+# Slide 15: Thanks
+src: ./slides/15-thanks.md
 ---
