@@ -24,8 +24,8 @@ This repository contains a presentation on AI-powered coding, exploring how AI t
 To run the presentation locally:
 
 ```bash
-npm install  # or pnpm install
-npm run dev  # or pnpm dev
+bun install
+bun run dev
 ```
 
 Then visit http://localhost:3030 in your browser.
