@@ -1,8 +1,86 @@
-/* Dark mode styles */
+/* Theme styles */
 :root {
   --slidev-theme-primary: #5d8bfd;
+  --text-color: #2d3748;
+  --title-gradient-from: #3b82f6;
+  --title-gradient-to: #10b981;
+  --bg-gradient-from: rgba(37, 99, 235, 0.1);
+  --bg-gradient-via: rgba(168, 85, 247, 0.1);
+  --bg-gradient-to: rgba(5, 150, 105, 0.1);
 }
 
+/* Light theme specific adjustments */
+html:not(.dark) {
+  --slidev-theme-primary: #5d8bfd;
+  --bg-gradient-from: rgba(37, 99, 235, 0.15);
+  --bg-gradient-via: rgba(168, 85, 247, 0.15);
+  --bg-gradient-to: rgba(5, 150, 105, 0.15);
+  background-color: #ffffff;
+  color: var(--text-color);
+}
+
+/* Remove background image in light mode */
+html:not(.dark) .slidev-layout-cover,
+html:not(.dark) .slidev-layout-intro,
+html:not(.dark) .slidev-layout-default,
+html:not(.dark) .slidev-layout-center {
+  background-image: none !important;
+}
+
+/* Make the background white in light mode for slides */
+html:not(.dark) .slidev-layout {
+  background-color: white !important;
+}
+
+/* Fix the slide container background */
+html:not(.dark) #slide-container {
+  background-color: white !important;
+  background-image: none !important;
+}
+
+/* Override any background image from Unsplash in light mode */
+html:not(.dark) [style*="unsplash.com"] {
+  background-image: none !important;
+}
+
+/* Fix the first slide background gradient in light mode */
+html:not(.dark) .bg-gradient-to-br.z-\[-1\] {
+  opacity: 0;
+  display: none;
+}
+
+/* Fix for title page text in light mode */
+html:not(.dark) .text-white\/80 {
+  color: rgba(45, 55, 72, 0.8);
+}
+
+/* Fix author name at bottom of title slide in light mode */
+html:not(.dark) .absolute.bottom-10.left-10 {
+  color: var(--text-color);
+  opacity: 1;
+}
+
+html:not(.dark) .absolute.bottom-10.left-10 .text-xs,
+html:not(.dark) .absolute.bottom-10.left-10 .font-semibold {
+  color: var(--text-color);
+  opacity: 1;
+}
+
+/* Fix for gradient text in light mode */
+html:not(.dark) .bg-clip-text.text-transparent.bg-gradient-to-r {
+  background-image: linear-gradient(to right, var(--title-gradient-from), var(--title-gradient-to));
+}
+
+/* Fix for icon buttons in light mode */
+html:not(.dark) .slidev-icon-btn {
+  color: var(--text-color);
+}
+
+html:not(.dark) .slidev-icon-btn:hover {
+  color: var(--slidev-theme-primary);
+}
+
+/* Dark mode styles */
 html.dark {
   --slidev-theme-primary: #5d8bfd;
   --slidev-code-background: #191919;

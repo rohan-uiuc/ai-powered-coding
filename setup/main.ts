@@ -3,7 +3,7 @@ import '../styles/theme.css'
 
 export default defineAppSetup(({ app, router }) => {
   // Check for saved theme preference on app load
-  const savedTheme = localStorage.getItem('slidev-theme') || 'light'
+  const savedTheme = localStorage.getItem('slidev-theme') || 'dark'
   
   if (savedTheme === 'dark') {
     document.documentElement.classList.add('dark')

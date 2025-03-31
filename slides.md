@@ -20,7 +20,7 @@ fonts:
 css: unocss
 # Enable dark mode
 mdc: true
-colorSchema: 'auto'
+colorSchema: 'dark'
 ---
 
 <div class="absolute top-0 right-0 w-full h-full bg-gradient-to-br from-blue-600/10 via-purple-500/10 to-emerald-400/10 z-[-1] rounded-xl"></div>
