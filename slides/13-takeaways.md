@@ -36,8 +36,4 @@ class: text-center
     <div class="font-bold text-base">Use the right approach</div>
     <div class="mt-1 text-sm">Using LLMs for code requires specific techniques and expectations - it's not always intuitive.</div>
   </div>
-</div>
-
-<div class="mt-4 text-sm opacity-70">
-  Based on research from <a href="https://www.oneusefulthing.org/p/the-cybernetic-teammate" target="_blank" class="underline">Mollick (2025)</a> and <a href="https://simonwillison.net/2025/Mar/11/using-llms-for-code/" target="_blank" class="underline">Willison (2025)</a>
 </div> 
