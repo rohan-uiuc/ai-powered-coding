@@ -92,45 +92,45 @@ Please include detailed recommendations, design mockups if applicable, and any r
 
   // Array of different UI styling prompts
   const uiStyles = [
-    "Additionally, design the UI with a futuristic robotic aesthetic featuring sharp angles, metallic textures, and a blue/silver color scheme to give users a sense of advanced technology.",
+    "Additionally, design the UI with a futuristic robotic aesthetic featuring sharp angles, metallic textures, and a bold electric blue (#0077FF) and brushed silver (#C0C0C0) color scheme with accent highlights in neon aqua (#00FFFF) to give users a sense of advanced technology.",
     
-    "For the visual design, implement a sleek techno-minimalist interface with neon accents, dark backgrounds, and glowing elements reminiscent of cyberpunk aesthetics.",
+    "For the visual design, implement a sleek techno-minimalist interface with bright neon pink (#FF00FF) and acid green (#39FF14) accents against deep black (#121212) backgrounds, creating a striking cyberpunk aesthetic with high visual contrast.",
     
-    "The UI should follow a modern clean design language with ample white space, subtle shadows, and a muted color palette focusing on functionality while maintaining an elegant appearance.",
+    "The UI should follow a modern clean design language with ample white space (#FFFFFF), subtle shadows, and a pastel color palette of soft lavender (#E6E6FA), mint green (#98FB98), and pale yellow (#FFFFCC) focusing on functionality while maintaining an elegant appearance.",
     
-    "Design the interface with a retro-computing aesthetic featuring pixel art elements, DOS-inspired typography, and a synthwave color palette of purples, blues, and bright pinks.",
+    "Design the interface with a retro-computing aesthetic featuring pixel art elements, DOS-inspired typography, and a vibrant synthwave color palette of hot magenta (#FF1493), electric purple (#9B30FF), and aqua blue (#1FFFC5) against deep navy (#000080) backgrounds.",
     
-    "Create a UI inspired by Studio Ghibli animations with soft hand-drawn styling, nature-inspired elements, pastel colors, and organic shapes to create a friendly, approachable system.",
+    "Create a UI inspired by Studio Ghibli animations with soft hand-drawn styling, nature-inspired elements, and a palette of sky blue (#87CEEB), forest green (#228B22), sunset orange (#FFA07A), and creamy beige (#F5F5DC) to create a friendly, approachable system.",
     
-    "Implement a brutalist web design approach with bold typography, raw HTML elements, high contrast, and intentionally rough edges to create a distinctive, memorable interface.",
+    "Implement a brutalist web design approach with bold typography in jet black (#000000), raw HTML elements in striking red (#FF0000), high contrast with bright white (#FFFFFF), and intentionally rough edges in slate gray (#708090) to create a distinctive, memorable interface.",
     
-    "The interface should follow a neumorphic design system with soft, realistic 3D elements that appear to extrude from the background, using subtle shadows and a monochromatic color scheme.",
+    "The interface should follow a neumorphic design system with soft, realistic 3D elements that appear to extrude from a warm light gray (#E0E0E0) background, using subtle shadows and accent colors of terracotta (#E2725B), sage green (#9CAF88), and muted navy (#394C60).",
     
-    "Design a bioluminescent-inspired UI featuring organic shapes, gradients that mimic natural light phenomena, and a color scheme of deep blues, greens, and glowing accents.",
+    "Design a bioluminescent-inspired UI featuring organic shapes, gradients that mimic natural light phenomena, and a dark color scheme of midnight blue (#191970) with glowing accents in phosphorescent green (#39FF14), electric turquoise (#00FFEF), and bioluminescent purple (#9D00FF).",
     
-    "Create an interface with an industrial utilitarian aesthetic featuring exposed grid systems, monospaced fonts, utility-focused components, and a limited color palette of grays with strategic accent colors.",
+    "Create an interface with an industrial utilitarian aesthetic featuring exposed grid systems, monospaced fonts in rust orange (#B7410E), utility-focused components in gunmetal gray (#2C3539), and strategic accent colors of hazard yellow (#EAA815) and industrial red (#A91101).",
     
-    "Design the UI with a glassmorphic approach featuring frosted glass effects, subtle transparency, colorful blurred backgrounds, and light border accents to create a modern, airy feel.",
+    "Design the UI with a glassmorphic approach featuring frosted glass effects in translucent white (#FFFFFF80), subtle transparency, vibrant blurred backgrounds in rose pink (#FF66B2), teal blue (#008080), and golden yellow (#FFD700), with light border accents to create a modern, airy feel.",
     
-    "Create a scientific laboratory-inspired interface with clean lines, data visualization elements, and a cool color palette of blues and greens that conveys precision and trustworthiness for research data.",
+    "Create a scientific laboratory-inspired interface with clean lines, data visualization elements, and a precision-focused color palette of sterile white (#F5F5F5), microscope blue (#4682B4), safety green (#39FF14), and calibration red (#FF3131) that conveys trustworthiness for research data.",
     
-    "Design the UI using a skeuomorphic approach that mimics physical research tools and laboratory equipment, with realistic textures, dimensional controls, and tactile feedback elements.",
+    "Design the UI using a skeuomorphic approach that mimics physical research tools and laboratory equipment, with realistic wood textures (#8B4513), brass metallic surfaces (#B5A642), leather-bound elements (#8B4513), and deep maroon (#800000) accents that convey a sense of traditional scientific authority.",
     
-    "Implement an origami-inspired design language featuring folded paper aesthetics, crisp edges, subtle shadows, and a light color palette with strategic color accents to represent different data types.",
+    "Implement an origami-inspired design language featuring folded paper aesthetics in soft cream (#FFFDD0), crisp edges, subtle shadows, and vibrant accent colors of origami red (#D70040), indigo (#4B0082), emerald green (#50C878), and bright yellow (#FFFF00) to represent different data types.",
     
-    "The interface should follow an elegant calligraphic style with flowing lines, ink-inspired elements, high contrast between content and background, and thoughtful typographic hierarchy that feels like a well-designed research journal.",
+    "The interface should follow an elegant calligraphic style with flowing lines in deep ink black (#000000), rich parchment backgrounds (#F5DEB3), subtle burgundy (#800020) highlights, and gold leaf accents (#FFD700) creating a high contrast between content and background that feels like a well-designed research journal.",
     
-    "Create a botanical-inspired UI with delicate line work, organic patterns based on natural structures, and a refreshing green and earth-tone palette that makes working with data feel connected to natural systems.",
+    "Create a botanical-inspired UI with delicate line work in moss green (#8A9A5B), organic patterns based on natural structures, and a refreshing palette of forest green (#228B22), wildflower purple (#9370DB), sunflower yellow (#FFDA03), and earthy brown (#8B4513) that makes working with data feel connected to natural systems.",
     
-    "Design a constellation/astronomy-themed interface with star field backgrounds, connection lines between related elements, and circular components that evoke planetary systems to represent data relationships.",
+    "Design a constellation/astronomy-themed interface with deep space black (#0C0032) star field backgrounds, cosmic purple (#5D3FD3) connection lines between related elements, nebula pink (#FF6EC7), and stellar gold (#FFD700) circular components that evoke planetary systems to represent data relationships.",
     
-    "Implement a 'digital garden' aesthetic where information and visualizations grow and connect organically, featuring interconnected modules, living navigation elements, and a vibrant yet professional color scheme.",
+    "Implement a 'digital garden' aesthetic where information and visualizations grow and connect organically, featuring interconnected modules in spring green (#00FF7F), flowering components in cherry blossom pink (#FFB7C5), soil brown (#8B4513) navigation elements, and warm sunshine yellow (#FFFF66) highlights in a vibrant yet professional scheme.",
     
-    "Create an architectural blueprint-inspired UI with precise grid systems, technical line work, annotations, dimensioning, and a classic blueprint color scheme of blue/white that communicates technical expertise.",
+    "Create an architectural blueprint-inspired UI with precise grid systems in blueprint blue (#0066CC), technical line work in white (#FFFFFF), annotations in vermilion red (#E34234), dimensioning in golden yellow (#FFCC00), and a classic blueprint background color scheme that communicates technical expertise.",
     
-    "Design the interface using material science aesthetics with representations of molecular structures, crystalline patterns, and physical properties visualized through a color palette inspired by scientific imaging techniques.",
+    "Design the interface using material science aesthetics with representations of molecular structures in ruby red (#E0115F), crystalline patterns in diamond white (#F5F5F5), and physical properties visualized through a vibrant palette inspired by scientific imaging techniques including thermal orange (#FF4500), spectral green (#00FF00), and atomic purple (#800080).",
     
-    "Implement a weather/climate visualization inspired design system featuring dynamic gradients, fluid animations, and natural phenomena representations that reflect the changing states of data in the system."
+    "Implement a weather/climate visualization inspired design system featuring dynamic gradients from storm gray (#778899) to azure blue (#007FFF), fluid animations in cloud white (#F0F8FF), sunset orange (#FD5E53) accents, and rainfall blue (#1E90FF) elements that reflect the changing states of data in the system."
   ];
   
   // Randomly select one UI style
