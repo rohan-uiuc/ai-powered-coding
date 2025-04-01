@@ -24,9 +24,15 @@ transition: slide-up
 </div>
 
 <div class="mt-4 text-sm text-right">
-  <a href="https://www.oneusefulthing.org/p/the-cybernetic-teammate" target="_blank" class="opacity-70 hover:opacity-100">
-    Source: "The Cybernetic Teammate" by Ethan Mollick (2023)
-  </a>
+  <div class="font-medium">Source: "The Cybernetic Teammate" by Ethan Mollick (2023)</div>
+  <div class="flex flex-col items-end mt-1 space-y-1">
+    <a href="https://www.oneusefulthing.org/p/the-cybernetic-teammate" target="_blank" class="opacity-70 hover:opacity-100">
+      Blog: The Cybernetic Teammate
+    </a>
+    <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5188231" target="_blank" class="opacity-70 hover:opacity-100">
+      Paper: The Cybernetic Teammate: A Field Experiment on Generative AI Reshaping Teamwork and Expertise
+    </a>
+  </div>
 </div> 
 
 ---
@@ -77,7 +83,13 @@ layout: default
 </div>
 
 <div class="mt-4 text-sm text-right">
-  <a href="https://www.oneusefulthing.org/p/the-cybernetic-teammate" target="_blank" class="opacity-70 hover:opacity-100">
-    Source: "The Cybernetic Teammate" by Ethan Mollick (2023)
-  </a>
+  <div class="font-medium">Source: "The Cybernetic Teammate" by Ethan Mollick (2023)</div>
+  <div class="flex flex-col items-end mt-1 space-y-1">
+    <a href="https://www.oneusefulthing.org/p/the-cybernetic-teammate" target="_blank" class="opacity-70 hover:opacity-100">
+      Blog: The Cybernetic Teammate
+    </a>
+    <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5188231" target="_blank" class="opacity-70 hover:opacity-100">
+      Paper: The Cybernetic Teammate: A Field Experiment on Generative AI Reshaping Teamwork and Expertise
+    </a>
+  </div>
 </div> 

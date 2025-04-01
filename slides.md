@@ -49,8 +49,8 @@ colorSchema: 'dark'
 </div>
 
 <div class="absolute bottom-10 left-10 flex items-center space-x-2 text-sm opacity-80 text-left">
-  <div class="h-8 w-8 bg-gradient-to-r from-blue-500 to-emerald-400 rounded-full flex items-center justify-center text-white">
-    <carbon:user />
+  <div class="h-12 w-12 overflow-hidden rounded-full border-2 border-white/20">
+    <img src="/images/Rohan Marwaha.jpeg" alt="Rohan Marwaha" class="w-full h-full object-cover" />
   </div>
   <div class="text-left">
     <div class="font-semibold">Rohan Marwaha</div>
@@ -71,71 +71,76 @@ src: ./slides/01b-initial-poll.md
 ---
 
 ---
-# Slide 2: AI Will Not Replace Developers
+# Slide 2: AI Coding Tools vs ChatGPT
+src: ./slides/01c-coding-tools-vs-chatgpt.md
+---
+
+---
+# Slide 3: AI Will Not Replace Developers
 src: ./slides/02-developers-teammate.md
 ---
 
 ---
-# Slide 3: Depth
+# Slide 4: Depth
 src: ./slides/03-depth.md
 ---
 
 ---
-# Slide 4: AI as a Cybernetic Teammate (Research Graphs)
+# Slide 5: AI as a Cybernetic Teammate (Research Graphs)
 src: ./slides/04-cybernetic-teammate.md
 ---
 
 ---
-# Slide 5: Users
+# Slide 6: Users
 src: ./slides/04-users.md
 ---
 
 ---
-# Slide 6: Context
+# Slide 7: Context
 src: ./slides/05-context.md
 ---
 
 ---
-# Slide 7: Expectations
+# Slide 8: Expectations
 src: ./slides/06-expectations.md
 ---
 
 ---
-# Slide 8: Prompts
+# Slide 9: Prompts
 src: ./slides/07-prompts.md
 ---
 
 ---
-# Slide 9: LLM Practices
+# Slide 10: LLM Practices
 src: ./slides/07b-llm-practices.md
 ---
 
 ---
-# Slide 10: Tools
+# Slide 11: Tools
 src: ./slides/10-tools.md
 ---
 
 ---
-# Slide 11: AI Coding Demo
+# Slide 12: AI Coding Demo
 src: ./slides/11-video-demo.md
 ---
 
 ---
-# Slide 12: AI Debugging & Bugfixing
+# Slide 13: AI Debugging & Bugfixing
 src: ./slides/12-bugfix-demo.md
 ---
 
 ---
-# Slide 13: Takeaways
+# Slide 14: Takeaways
 src: ./slides/13-takeaways.md
 ---
 
 ---
-# Slide 14: We'd Love Your Feedback!
+# Slide 15: We'd Love Your Feedback!
 src: ./slides/14-polls.md
 ---
 
 ---
-# Slide 15: Thanks
+# Slide 16: Thanks
 src: ./slides/15-thanks.md
 ---
