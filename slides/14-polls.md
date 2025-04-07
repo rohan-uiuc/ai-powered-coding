@@ -10,7 +10,7 @@ transition: fade
 </div>
 
 <div class="mx-auto" style="width: 95%; max-width: 900px; height: 400px;">
-  <iframe src="https://app.sli.do/event/tfYKfBFwYouNHUfkJYQ43t" height="100%" width="100%" frameBorder="0" style="min-height: 400px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" allow="clipboard-write" title="Slido"></iframe>
+  <img src="/images/Poll Results.png" alt="Poll Results" class="w-full h-full object-contain rounded-lg shadow-md">
 </div>
 <!-- 
 <div class="absolute bottom-5 right-5 text-xs opacity-50">
