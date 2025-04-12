@@ -31,8 +31,8 @@ seoMeta:
   twitterTitle: AI-Powered Coding # Title for Twitter card
   twitterImage: /images/preview.png # Image for Twitter card
   # You can add more properties like ogDescription, twitterDescription, twitterSite etc.
-  # ogDescription: The Future of Software Development
-  # twitterDescription: The Future of Software Development
+  ogDescription: The Future of Software Development
+  twitterDescription: The Future of Software Development
   twitterSite: '@rohanmarwaha222' # Enclose value starting with @ in quotes
 ---
 
