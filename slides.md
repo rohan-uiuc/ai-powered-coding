@@ -8,6 +8,7 @@ highlighter: shiki
 # Enable cool transition effects
 transition: slide-left
 title: AI-Powered Coding
+titleTemplate: '%s' # Use only the main title
 # Enable drawing tools
 drawings:
   persist: false
@@ -21,6 +22,9 @@ css: unocss
 # Enable dark mode
 mdc: true
 colorSchema: 'dark'
+
+# Attempt to add Open Graph image
+og:image: /images/preview.png
 ---
 
 <div class="absolute top-0 right-0 w-full h-full bg-gradient-to-br from-blue-600/10 via-purple-500/10 to-emerald-400/10 z-[-1] rounded-xl"></div>
