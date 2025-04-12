@@ -12,6 +12,7 @@
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "^0.25.0",
     "@slidev/theme-shibainu": "^0.25.0",
+    "@vercel/analytics": "^1.5.0",
     "vue": "^3.5.13"
   },
   "devDependencies": {
