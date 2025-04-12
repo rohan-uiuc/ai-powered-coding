@@ -23,8 +23,17 @@ css: unocss
 mdc: true
 colorSchema: 'dark'
 
-# Attempt to add Open Graph image
-og:image: /images/preview.png
+# Configure SEO meta tags for link previews
+seoMeta:
+  ogTitle: AI-Powered Coding
+  ogImage: /images/preview.png # Path relative to public directory
+  twitterCard: summary_large_image # Type of Twitter card
+  twitterTitle: AI-Powered Coding # Title for Twitter card
+  twitterImage: /images/preview.png # Image for Twitter card
+  # You can add more properties like ogDescription, twitterDescription, twitterSite etc.
+  # ogDescription: The Future of Software Development
+  # twitterDescription: The Future of Software Development
+  twitterSite: '@rohanmarwaha222' # Enclose value starting with @ in quotes
 ---
 
 <div class="absolute top-0 right-0 w-full h-full bg-gradient-to-br from-blue-600/10 via-purple-500/10 to-emerald-400/10 z-[-1] rounded-xl"></div>
