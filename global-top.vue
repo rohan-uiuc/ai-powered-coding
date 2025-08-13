@@ -118,6 +118,8 @@ onMounted(() => {
     upsertMetaByName('description', description);
     upsertMetaByName('keywords', keywords);
     upsertMetaByName('author', 'Rohan Marwaha');
+    upsertMetaByName('application-name', 'Rohan');
+    upsertMetaByName('apple-mobile-web-app-title', 'Rohan');
     upsertMetaByName('robots', 'index, follow');
     upsertMetaByName('googlebot', 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1');
 
