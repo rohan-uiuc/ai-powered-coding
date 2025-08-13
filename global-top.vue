@@ -93,6 +93,17 @@ onMounted(() => {
       }
     }
 
+    function appendLink(rel, href, extra = {}) {
+      if (!href) return;
+      const link = document.createElement('link');
+      link.setAttribute('rel', rel);
+      link.setAttribute('href', href);
+      for (const [key, value] of Object.entries(extra)) {
+        link.setAttribute(key, value);
+      }
+      document.head.appendChild(link);
+    }
+
     function upsertScriptJsonLd(id, json) {
       let script = document.querySelector(`script[type="application/ld+json"][data-id="${id}"]`);
       if (!script) {
@@ -107,6 +118,8 @@ onMounted(() => {
     // Favicons and manifest
     upsertLink('icon', '/favicon.svg', { type: 'image/svg+xml' });
     upsertLink('apple-touch-icon', '/favicon.svg');
+    appendLink('preconnect', 'https://fonts.googleapis.com');
+    appendLink('preconnect', 'https://fonts.gstatic.com', { crossorigin: '' });
     upsertLink('manifest', '/site.webmanifest');
     upsertMetaByName('theme-color', '#0b1220');
 
@@ -130,6 +143,7 @@ onMounted(() => {
     upsertMetaByProperty('og:type', 'website');
     upsertMetaByProperty('og:url', currentUrl);
     upsertMetaByProperty('og:image', ogImage);
+    upsertMetaByProperty('og:image:alt', description);
     upsertMetaByProperty('og:site_name', 'Rohan Marwaha');
     upsertMetaByProperty('profile:username', 'rohanmarwaha222');
 
