@@ -141,6 +141,8 @@ onMounted(() => {
     // Identity links
     upsertLink('me', 'mailto:rohan13@illinois.edu');
     upsertLink('me', 'https://twitter.com/rohanmarwaha222');
+    upsertLink('me', 'https://github.com/rohan-uiuc');
+    upsertLink('me', 'https://www.linkedin.com/in/rohanmarwaha');
 
     // JSON-LD: Person and WebSite
     const personId = `${origin}/#person`;
@@ -167,6 +169,8 @@ onMounted(() => {
         email: 'mailto:rohan13@illinois.edu',
         sameAs: [
           'https://twitter.com/rohanmarwaha222',
+          'https://github.com/rohan-uiuc',
+          'https://www.linkedin.com/in/rohanmarwaha'
         ],
         knowsAbout: keywords.split(',').map(s => s.trim()).filter(Boolean),
       },
