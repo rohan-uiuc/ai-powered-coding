@@ -1,0 +1,12 @@
+{
+  "name": "Rohan Marwaha | AI, UIUC, NCSA",
+  "short_name": "Rohan",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b1220",
+  "theme_color": "#0b1220",
+  "description": "Rohan Marwaha — Research Software Engineer at NCSA (UIUC). AI, Illinois Chat, UIUC Chat.",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

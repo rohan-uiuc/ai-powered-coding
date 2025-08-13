@@ -1,0 +1,7 @@
+/* TEAM */
+Developer: Rohan Marwaha
+Twitter: https://twitter.com/rohanmarwaha222
+Email: rohan13@illinois.edu
+
+/* SITE */
+Technology: Slidev, Vue 3, Vite

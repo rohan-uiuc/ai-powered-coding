@@ -34,6 +34,8 @@ seoMeta:
   ogDescription: The Future of Software Development
   twitterDescription: The Future of Software Development
   twitterSite: '@rohanmarwaha222' # Enclose value starting with @ in quotes
+  ogUrl: /
+  ogType: website
 ---
 
 <div class="absolute top-0 right-0 w-full h-full bg-gradient-to-br from-blue-600/10 via-purple-500/10 to-emerald-400/10 z-[-1] rounded-xl"></div>
