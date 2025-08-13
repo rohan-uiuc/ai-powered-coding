@@ -111,7 +111,7 @@ onMounted(() => {
     upsertMetaByName('theme-color', '#0b1220');
 
     // Canonical
-    upsertLink('canonical', currentUrl);
+    upsertLink('canonical', origin + '/');
 
     // Basic SEO
     document.title = title;
